@@ -1,8 +1,23 @@
-// Custom
+// Layout
+.item-center{ float: left; }
 
-// vertically center nav brand svg icon
-//.icon { margin: 5.5px 0; }
+button,
+.button {
+  @include debugger-blue;
+  background: transparent !important;
+  border: none !important;
+}
 
-.logo-icon { @include center-vertical; }
+.logo-icon {
+  @include center-both;
+  @include hidden;
+}
 
 svg:not(:root) { height: 34px; }
+
+//// SHAME
+//
+//
+
+// hide title for now
+.title h1 { @include hidden; }

@@ -27,3 +27,19 @@
   position: absolute;
   top: 0;
 }
+
+//== debugger
+
+@mixin debugger-blue {
+  background-color: rgba(blue, 0.10) !important;
+}
+
+@mixin debugger-green {
+  background-color: rgba(green, 0.10) !important;
+}
+
+@mixin debugger-pink {
+  background-color: rgba(pink, 0.10) !important;
+}
+
+@mixin hidden { display: none !important; }

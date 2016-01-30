@@ -4,8 +4,8 @@
 @import 'custom';
 
 // Ionic
-@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/_ionic';
-@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/_ionicons';
+ @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/_ionic';
+ @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/_ionicons';
 
 .product-title a {
   text-decoration: none;
@@ -37,17 +37,14 @@
 }
 
 .button.vote-button {
-  width: 30px;
-  max-width: 30px;
-  min-width: 30px;
-  padding: 20px 0 0 0;
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  font-size: 12px;
   border: 0;
-  border-radius: $border-radius-base;
+  float: left;
+  font-size: 14px;
   line-height: 20px;
+  max-width: 32px;
+  min-width: 32px;
+  padding: 20px 0 0 0;
+  width: 32px;
 
   &.has-voted {
     .icon {
@@ -163,11 +160,12 @@
 }
 
 .avatar {
-  .avatar-image {
+
+  &-image {
     border: 2px solid #fff;
   }
 
-  .avatar-initials {
+  &-initials {
     border: 2px solid #fff;
     background: $positive;
     color: #fff;

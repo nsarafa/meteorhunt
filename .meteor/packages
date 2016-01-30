@@ -22,6 +22,5 @@ meteoric:ionic
 meteoric:autoform-ionic
 reactive-var
 
-# throws stylus dependency bug on meteor update
-# to update to meteor 2+, you must remove bengott:avatar, run meteor update & re-add the package
-bengott:avatar
+# throw depency errors
+# bengott:avatar
