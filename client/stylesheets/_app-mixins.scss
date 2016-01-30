@@ -2,3 +2,28 @@
 // @import "_mixins.import.scss";
 
 // Add Custom Mixins Here:
+
+// Center helper mixins
+// Parent container must be position:relative
+@mixin center-both {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@mixin center-horizontal {
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+}
+
+@mixin center-vertical {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
