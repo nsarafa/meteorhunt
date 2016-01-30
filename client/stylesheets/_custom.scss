@@ -1,12 +1,17 @@
+// Buttons
+
+.bar-header > button { width: 40px; }
+
+.button {
+  background: transparent !important;
+  border: none !important;
+
+  &.sign-in-button { background: $primary-turquoise !important; }
+}
+
 // Layout
 .item-center{ float: left; }
 
-button,
-.button {
-  @include debugger-blue;
-  background: transparent !important;
-  border: none !important;
-}
 
 .logo-icon { @include center-both; }
 
