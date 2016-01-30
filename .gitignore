@@ -6,3 +6,4 @@ settings.production.json
 sass_options.json
 .meteor/local
 local
+.idea

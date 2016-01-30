@@ -8,16 +8,21 @@ button,
   border: none !important;
 }
 
-.logo-icon {
-  @include center-both;
-  @include hidden;
-}
+.logo-icon { @include center-both; }
+
+// vote svg icon
+.vote-icon svg { height: 20px; }
 
 svg:not(:root) { height: 34px; }
 
 //// SHAME
 //
 //
+
+.item {
+  h2 { padding: 2.5px 0 0 5px; }
+  p { padding-left: 5px; }
+}
 
 // hide title for now
 .title h1 { @include hidden; }
