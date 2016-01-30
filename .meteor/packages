@@ -5,6 +5,8 @@
 
 accounts-meteor-developer
 accounts-facebook
+accounts-github
+accounts-google
 accounts-twitter
 accounts-ui-unstyled
 
