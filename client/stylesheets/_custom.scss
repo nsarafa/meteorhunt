@@ -32,3 +32,12 @@ svg:not(:root) { height: 34px; }
 
 // hide title for now
 .title h1 { @include hidden; }
+
+
+#configure-login-service-dialog {
+  background: gray;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
