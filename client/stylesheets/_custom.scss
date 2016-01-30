@@ -10,8 +10,9 @@ button,
 
 .logo-icon { @include center-both; }
 
-// vote svg icon
+// vote btn overridees
 .vote-icon svg { height: 20px; }
+.item-icon-left .icon:before, .item-icon-right .icon:before { width: 40px !important; }
 
 svg:not(:root) { height: 34px; }
 
