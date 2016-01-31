@@ -61,3 +61,8 @@ svg:not(:root) { height: 34px; }
 
 // hide all scroll bars
 ::-webkit-scrollbar { display: none; }
+
+// line up avatar upvotes inside of detail view
+.product-detail-upvotes a .avatar { display: inline-block; }
+
+.product-detail-upvotes a { text-decoration: none; }
