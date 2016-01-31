@@ -41,3 +41,17 @@ svg:not(:root) { height: 34px; }
   top: 43px;
   z-index: 5;
 }
+
+// disable accounts-ui drop menu behavior
+.accounts-dialog {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.login-close-text,
+.login-link-text { @include hidden; }
+#login-dropdown-list { position: static !important; }

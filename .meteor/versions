@@ -2,7 +2,6 @@ accounts-base@1.2.2
 accounts-facebook@1.0.6
 accounts-github@1.0.6
 accounts-google@1.0.6
-accounts-meteor-developer@1.0.6
 accounts-oauth@1.1.8
 accounts-twitter@1.0.6
 accounts-ui@1.1.6
@@ -69,7 +68,6 @@ logging@1.0.8
 matb33:collection-hooks@0.8.1
 mdg:validation-error@0.4.0
 meteor@1.1.10
-meteor-developer@1.1.5
 meteor-platform@1.2.3
 meteorhacks:inject-initial@1.0.3
 meteoric:autoform-ionic@0.1.6

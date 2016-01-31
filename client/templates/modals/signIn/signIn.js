@@ -9,3 +9,8 @@ Template.signIn.events({
     });
   }
 });
+
+// disables account-ui drop down behavior
+Template.signIn.rendered = function() {
+  Accounts._loginButtonsSession.set('dropdownVisible', true);
+};
