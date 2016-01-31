@@ -11,7 +11,11 @@
   &[type="submit"] { background: $primary-turquoise !important; }
 }
 
-.logo-icon { @include center-both; }
+.logo-icon {
+  @include center-both;
+  cursor: hand;
+  cursor: pointer;
+}
 
 // vote btn overrides
 .vote-icon svg { height: 20px; }
