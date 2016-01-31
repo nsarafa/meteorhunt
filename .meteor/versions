@@ -103,6 +103,7 @@ service-configuration@1.0.5
 session@1.1.1
 spacebars@1.0.7
 spacebars-compiler@1.0.7
+tarang:accounts-bitbucket@0.1.0
 templating@1.1.5
 templating-tools@1.0.0
 tracker@1.0.9

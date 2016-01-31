@@ -27,5 +27,6 @@ mrt:underscore-string-latest
 reactive-var
 reywood:publish-composite
 service-configuration
+tarang:accounts-bitbucket
 utilities:avatar
 zimme:iron-router-active
