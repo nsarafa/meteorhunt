@@ -1,12 +1,11 @@
-![](public/favicon-96x96.png)
+# Product Suck
 
-# [Meteor Hunt](http://meteorhunt.meteor.com/)
-
-A [Product Hunt](http://www.producthunt.com/apps/ios) spin off built using [meteoric:meteor-ionic](https://github.com/meteoric/meteor-ionic). **Currently in progress**
+A [Product Hunt](http://www.producthunt.com/apps/ios) spin off built using [meteoric:meteor-ionic](https://github.com/meteoric/meteor-ionic) for showing off weekend hack-apps which, as the name infers, suck. **Currently in progress**
 
 ## Running the app
 
 ```
+git clone https://github.com/nsarafa/product-suck.git
 cp settings.json.example settings.json
 meteor --settings settings.json
 ```
